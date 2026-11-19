@@ -1,0 +1,9 @@
+
+{
+  "appId": "com.ultratouch.boost",
+  "appName": "ULTRA TOUCH BOOST",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  }
+}
