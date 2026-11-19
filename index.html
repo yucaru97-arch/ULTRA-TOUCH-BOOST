@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#080b14">
+<title>ULTRA TOUCH BOOST</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="header">
+  <h1>ULTRA TOUCH BOOST</h1>
+  <p>ADVANCED TOUCH CONTROL</p>
+</div>
+
+<div class="panel">
+  <h2>SENSIBILIDAD PERSONALIZADA</h2>
+
+  <div class="control">
+    <label>
+      <span>EJE X - HORIZONTAL</span>
+      <strong id="valorX">100</strong>
+    </label>
+    <input type="range" id="ejeX" min="1" max="200" value="100">
+  </div>
+
+  <div class="control">
+    <label>
+      <span>EJE Y - VERTICAL</span>
+      <strong id="valorY">100</strong>
+    </label>
+    <input type="range" id="ejeY" min="1" max="200" value="100">
+  </div>
+
+<div style="display:flex; gap:10px; margin-top:20px;">
+  <button id="guardar" type="button">GUARDAR PERFIL</button>
+  <button id="restaurar" type="button">RESTAURAR</button>
+</div>
+
+  <p class="status" id="estado">SISTEMA INICIANDO</p>
+</div>
+
+<div class="panel">
+  <h2>ESTADO DEL SISTEMA</h2>
+  <p>Motor de configuración: ACTIVO</p>
+  <p>Almacenamiento local: ACTIVO</p>
+  <p>Control X/Y: DISPONIBLE</p>
+</div>
+
+<div class="panel">
+  <h2>ULTRA TOUCH</h2>
+  <p>Configurá tus valores y guardalos automáticamente.</p>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
